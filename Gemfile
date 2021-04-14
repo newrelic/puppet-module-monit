@@ -1,6 +1,6 @@
 source :rubygems
 
-gem 'puppet'
+gem 'puppet', '>= 6.13.0'
 
 group :test do
   gem 'puppet-lint', '0.3.2'
